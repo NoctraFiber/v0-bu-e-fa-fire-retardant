@@ -1,0 +1,8 @@
+{
+  "name": "BÜFA Fire Retardant Website",
+  "description": "Static website for BÜFA fire retardant products",
+  "buildCommand": "npm run build",
+  "publishDirectory": "out",
+  "nodeVersion": "18",
+  "framework": "nextjs"
+}
