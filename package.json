@@ -4,11 +4,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "build:static": "next build && next export",
-    "dev": "next dev",
-    "export": "next export",
-    "lint": "next lint",
-    "start": "next start"
+    "dev": "next dev"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

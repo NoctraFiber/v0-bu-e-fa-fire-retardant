@@ -30,17 +30,21 @@ Continue building your app on:
 
 ## Static Export for IONOS Deploy Now
 
-This project is configured for static export and can be deployed on IONOS Deploy Now:
+This project is fully configured for static export and deployment on IONOS Deploy Now:
 
 ### Build Commands
-- `npm run build` - Standard Next.js build
-- `npm run build:static` - Build and export static files to `/out` directory
-- `npm run export` - Export static files (run after build)
+- `pnpm dev` - Development server
+- `pnpm build` - Build and export static files to `/out` directory
 
-### Configuration Files
-- `ionos.json` - IONOS Deploy Now configuration
-- `deploy-now.json` - Alternative deployment configuration
-- `next.config.mjs` - Configured with `output: 'export'` and `distDir: 'out'`
+### Configuration
+- **next.config.mjs**: Configured with `output: 'export'`, `images: { unoptimized: true }`, and `trailingSlash: true`
+- **GitHub Workflow**: Automatically builds and deploys to IONOS using the `/out` directory
+- **Static Generation**: All dynamic routes use `generateStaticParams()` for complete static export
 
-### Deployment
-The static files are generated in the `/out` directory and can be deployed directly to any static hosting service.
+### Deployment Process
+1. Push changes to the main branch
+2. GitHub Actions automatically runs `pnpm build`
+3. Static files are generated in the `/out` directory
+4. IONOS Deploy Now deploys the static site
+
+The project contains no server-side functionality, API routes, or server actions - it's a pure static website optimized for fast loading and reliable hosting.
