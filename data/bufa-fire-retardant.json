@@ -1,0 +1,650 @@
+{
+  "dokumentInfo": {
+    "titel": "BÜFA Fire Retardant Products - Complete Range",
+    "version": "2025",
+    "sprache": "DE",
+    "erstellungsdatum": "2024-08",
+    "quelle": "BÜFA Composite Systems GmbH & Co. KG"
+  },
+  "produktKategorien": [
+    {
+      "kategorieName": "Gelcoats und Topcoats",
+      "kategorieHinweis": "Topcoat-Versionen aller Gelcoats sind prinzipiell ebenfalls erhältlich.",
+      "produkte": [
+        {
+          "produktName": "BÜFA®-Firestop GC S 250",
+          "artikelNr": null,
+          "verfuegbarkeit": "auf Anfrage",
+          "isNew": false,
+          "beschreibung": "Spritzqualität, ATH-gefüllter Gelcoat mit guten brandhemmenden Eigenschaften.",
+          "technischeDaten": {
+            "harzbasis": "IP",
+            "nichtflüchtigeAnteileProzent": 73,
+            "viskositaet": {
+              "wert": null,
+              "einheit": "mPas",
+              "hinweis": "Diverse - auf Anfrage"
+            },
+            "bruchdehnungProzent": 1.6,
+            "zugfestigkeit_MPa": 17,
+            "hdt_C": 40
+          }
+        },
+        {
+          "produktName": "BÜFA®-Firestop GC S 270",
+          "artikelNr": null,
+          "verfuegbarkeit": "auf Anfrage",
+          "isNew": false,
+          "beschreibung": "Spritzqualität, intumeszierender Gelcoat mit sehr guten brandhemmenden Eigenschaften.",
+          "technischeDaten": {
+            "harzbasis": "VE / DCPD",
+            "nichtflüchtigeAnteileProzent": 78,
+            "viskositaet": {
+              "wert": 28000,
+              "einheit": "mPas",
+              "hinweis": null
+            },
+            "bruchdehnungProzent": 0.5,
+            "zugfestigkeit_MPa": 30,
+            "hdt_C": 67
+          }
+        },
+        {
+          "produktName": "BÜFA®-Firestop GC S 285",
+          "artikelNr": null,
+          "verfuegbarkeit": "auf Anfrage",
+          "isNew": false,
+          "beschreibung": "Spritzqualität, intumeszierender Gelcoat mit exzellenten brandhemmenden Eigenschaften.",
+          "technischeDaten": {
+            "harzbasis": "IP",
+            "nichtflüchtigeAnteileProzent": 76,
+            "viskositaet": {
+              "wert": 14000,
+              "einheit": "mPas",
+              "hinweis": null
+            },
+            "bruchdehnungProzent": 1.9,
+            "zugfestigkeit_MPa": 10,
+            "hdt_C": 40
+          }
+        },
+        {
+          "produktName": "BÜFA®-Firestop-GC-S 320",
+          "artikelNr": null,
+          "verfuegbarkeit": "auf Anfrage",
+          "isNew": true,
+          "beschreibung": "Spritzqualität, intumeszierender Gelcoat mit herausragenden brandhemmenden Eigenschaften. Styrol-, melamin- und halogenfrei.",
+          "technischeDaten": {
+            "harzbasis": "DCPD",
+            "nichtflüchtigeAnteileProzent": 78,
+            "viskositaet": {
+              "wert": 9000,
+              "einheit": "mPas",
+              "hinweis": null
+            },
+            "bruchdehnungProzent": 0.7,
+            "zugfestigkeit_MPa": 25,
+            "hdt_C": 41
+          }
+        }
+      ]
+    },
+    {
+      "kategorieName": "Harze",
+      "unterkategorien": [
+        {
+          "name": "Halogenfreie Harze",
+          "produkte": [
+            {
+              "produktName": "BÜFA®-Firestop S 425",
+              "artikelNr": "716-0425",
+              "verfuegbarkeit": "lagernd",
+              "isNew": false,
+              "beschreibung": "Ungefülltes, vorbeschleunigtes Harz für Strukturbauteile im Vakuum-Infusionsverfahren.",
+              "technischeDaten": {
+                "harzbasis": "DCPD",
+                "nichtflüchtigeAnteileProzent": 56,
+                "viskositaet": {
+                  "wert": 230,
+                  "einheit": "mPas",
+                  "messverfahren": "20s/1"
+                },
+                "bruchdehnungProzent": 2.7,
+                "zugfestigkeit_MPa": 82,
+                "hdt_C": 91
+              }
+            },
+            {
+              "produktName": "BÜFA®-Firestop S 440",
+              "artikelNr": "716-0440",
+              "verfuegbarkeit": "lagernd",
+              "isNew": false,
+              "beschreibung": "Ungefülltes, vorbeschleunigtes VE-Harz für Strukturbauteile im Vakuum-Infusionsverfahren.",
+              "technischeDaten": {
+                "harzbasis": "VE",
+                "nichtflüchtigeAnteileProzent": 66,
+                "viskositaet": {
+                  "wert": 350,
+                  "einheit": "mPas",
+                  "messverfahren": null
+                },
+                "bruchdehnungProzent": 4.3,
+                "zugfestigkeit_MPa": 56,
+                "hdt_C": 84
+              }
+            },
+            {
+              "produktName": "BÜFA®-Firestop S 520",
+              "artikelNr": "716-0520",
+              "verfuegbarkeit": "lagernd",
+              "isNew": false,
+              "beschreibung": "ATH-gefülltes, vorbeschleunigtes Injektionsharz für Strukturbauteile (Standard RTM-Harz).",
+              "technischeDaten": {
+                "harzbasis": "DCPD",
+                "nichtflüchtigeAnteileProzent": 74,
+                "viskositaet": {
+                  "wert": 800,
+                  "einheit": "mPas",
+                  "messverfahren": null
+                },
+                "bruchdehnungProzent": 0.8,
+                "zugfestigkeit_MPa": 52,
+                "hdt_C": 98
+              }
+            },
+            {
+              "produktName": "BÜFA®-Firestop S 585",
+              "artikelNr": "716-0585",
+              "verfuegbarkeit": "lagernd",
+              "isNew": false,
+              "beschreibung": "ATH-gefülltes, vorbeschleunigtes Injektionsharz für Strukturbauteile (Class A RTM-Harz).",
+              "technischeDaten": {
+                "harzbasis": "DCPD",
+                "nichtflüchtigeAnteileProzent": 74,
+                "viskositaet": {
+                  "wert": 800,
+                  "einheit": "mPas",
+                  "messverfahren": null
+                },
+                "bruchdehnungProzent": 1.1,
+                "zugfestigkeit_MPa": 39,
+                "hdt_C": 93
+              }
+            },
+            {
+              "produktName": "BÜFA®-Firestop S 910 Foaming Resin",
+              "artikelNr": "796-0910",
+              "verfuegbarkeit": "lagernd",
+              "isNew": false,
+              "beschreibung": "Ungefülltes Schaumharzsystem für Strukturbauteile im RTM-Verfahren.",
+              "technischeDaten": {
+                "harzbasis": "OP",
+                "nichtflüchtigeAnteileProzent": 60,
+                "viskositaet": {
+                  "wert": 700,
+                  "einheit": "mPas",
+                  "messverfahren": null
+                },
+                "bruchdehnungProzent": null,
+                "zugfestigkeit_MPa": null,
+                "hdt_C": null
+              }
+            },
+            {
+              "produktName": "BÜFA®-Firestop 8175-W-1",
+              "artikelNr": "716-8175",
+              "verfuegbarkeit": "lagernd",
+              "isNew": false,
+              "beschreibung": "ATH-gefülltes, thixotropes, vorbeschleunigtes Harz für Strukturbauteile.",
+              "technischeDaten": {
+                "harzbasis": "DCPD",
+                "nichtflüchtigeAnteileProzent": 76,
+                "viskositaet": {
+                  "wert": 750,
+                  "einheit": "mPas",
+                  "messverfahren": "20s/1"
+                },
+                "bruchdehnungProzent": 0.6,
+                "zugfestigkeit_MPa": 39,
+                "hdt_C": 94
+              }
+            },
+            {
+              "produktName": "BÜFA®-Firestop S 570",
+              "artikelNr": "716-0570",
+              "verfuegbarkeit": "lagernd",
+              "isNew": false,
+              "beschreibung": "ATH-gefülltes, thixotropes, vorbeschleunigtes Harz für Strukturbauteile.",
+              "technischeDaten": {
+                "harzbasis": "OP",
+                "nichtflüchtigeAnteileProzent": 84,
+                "viskositaet": {
+                  "wert": 1150,
+                  "einheit": "mPas",
+                  "messverfahren": null
+                },
+                "bruchdehnungProzent": 0.6,
+                "zugfestigkeit_MPa": 29,
+                "hdt_C": 71
+              }
+            },
+            {
+              "produktName": "BÜFA®-Firestop 5001-W-2",
+              "artikelNr": "716-5002",
+              "verfuegbarkeit": "lagernd",
+              "isNew": false,
+              "beschreibung": "Hoch ATH-gefülltes, vorbeschleunigtes Harz für Strukturbauteile (für höhere Brandschutznormen).",
+              "technischeDaten": {
+                "harzbasis": "DCPD",
+                "nichtflüchtigeAnteileProzent": 80,
+                "viskositaet": {
+                  "wert": 1100,
+                  "einheit": "mPas",
+                  "messverfahren": "20s/1"
+                },
+                "bruchdehnungProzent": 0.7,
+                "zugfestigkeit_MPa": 34,
+                "hdt_C": 73
+              }
+            },
+            {
+              "produktName": "BÜFA®-Firestop 5001-T-1",
+              "artikelNr": "716-5003",
+              "verfuegbarkeit": "lagernd",
+              "isNew": false,
+              "beschreibung": "Auf hohe Füllung vorbereitet, mit geringer Rauchentwicklung (+300 Teile ATH), nicht vorbeschleunigt.",
+              "technischeDaten": {
+                "harzbasis": "DCPD",
+                "nichtflüchtigeAnteileProzent": null,
+                "viskositaet": {
+                  "wert": 100,
+                  "einheit": "mPas",
+                  "messverfahren": null
+                },
+                "bruchdehnungProzent": 0.45,
+                "bruchdehnungHinweis": "gefüllt",
+                "zugfestigkeit_MPa": 51,
+                "zugfestigkeitHinweis": "gefüllt",
+                "hdt_C": null
+              }
+            }
+          ]
+        },
+        {
+          "name": "rPET Harze",
+          "produkte": [
+            {
+              "produktName": "BÜFA®-Firestop S 400",
+              "artikelNr": "716-0400",
+              "verfuegbarkeit": "lagernd",
+              "isNew": true,
+              "beschreibung": "Ungefülltes, PET-basiertes, vorbeschleunigtes Harz für Strukturbauteile im Vakuum-Infusionsverfahren.",
+              "technischeDaten": {
+                "harzbasis": "rPET",
+                "nichtflüchtigeAnteileProzent": 54,
+                "viskositaet": {
+                  "wert": 200,
+                  "einheit": "mPas",
+                  "messverfahren": null
+                },
+                "bruchdehnungProzent": 4.3,
+                "zugfestigkeit_MPa": 62,
+                "hdt_C": 80
+              }
+            },
+            {
+              "produktName": "BÜFA®-Firestop S 405",
+              "artikelNr": "716-0405",
+              "verfuegbarkeit": "lagernd",
+              "isNew": true,
+              "beschreibung": "ATH-gefülltes, PET-basiertes, vorbeschleunigtes thixotropes Harz für Strukturbauteile.",
+              "technischeDaten": {
+                "harzbasis": "rPET",
+                "nichtflüchtigeAnteileProzent": null,
+                "viskositaet": {
+                  "wert": 1700,
+                  "einheit": "mPas",
+                  "messverfahren": null
+                },
+                "bruchdehnungProzent": 1.1,
+                "zugfestigkeit_MPa": 51,
+                "hdt_C": 88
+              }
+            }
+          ]
+        },
+        {
+          "name": "Halogenierte Harze",
+          "produkte": [
+            {
+              "produktName": "BÜFA®-Firestop S 840",
+              "artikelNr": "788-0840",
+              "verfuegbarkeit": "lagernd",
+              "isNew": false,
+              "beschreibung": "Halogeniertes Harz für hochflexible Anwendungen (z.B. Dachbeschichtungen), nicht vorbeschleunigt.",
+              "technischeDaten": {
+                "harzbasis": "OP",
+                "nichtflüchtigeAnteileProzent": 60,
+                "viskositaet": {
+                  "wert": null,
+                  "einheit": "mPas",
+                  "messverfahren": null
+                },
+                "bruchdehnungProzent": 100,
+                "bruchdehnungHinweis": "> 100",
+                "zugfestigkeit_MPa": 5,
+                "hdt_C": 35
+              }
+            },
+            {
+              "produktName": "BÜFA®-Firestop 2754-P-2",
+              "artikelNr": "716-2754",
+              "verfuegbarkeit": "lagernd",
+              "isNew": false,
+              "beschreibung": "Halogeniertes, ungefülltes Harzsystem, für Handlaminier- und RTM-Anwendungen, vorbeschleunigt. Auch als gefüllte Version (716-2755) erhältlich.",
+              "technischeDaten": {
+                "harzbasis": "OP",
+                "nichtflüchtigeAnteileProzent": 65,
+                "viskositaet": {
+                  "wert": 230,
+                  "einheit": "mPas",
+                  "messverfahren": "20s/1"
+                },
+                "bruchdehnungProzent": 1.8,
+                "zugfestigkeit_MPa": 49,
+                "hdt_C": 65
+              }
+            },
+            {
+              "produktName": "BÜFA®-Firestop 6806-N-5",
+              "artikelNr": "788-0806",
+              "verfuegbarkeit": "lagernd",
+              "isNew": false,
+              "beschreibung": "Halogeniertes Harz für transluzente Anwendungen, nicht vorbeschleunigt.",
+              "technischeDaten": {
+                "harzbasis": "OP",
+                "nichtflüchtigeAnteileProzent": 60,
+                "viskositaet": {
+                  "wert": 200,
+                  "einheit": "mPas",
+                  "messverfahren": null
+                },
+                "bruchdehnungProzent": 0.6,
+                "zugfestigkeit_MPa": 96,
+                "hdt_C": 63
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kategorieName": "Klebepasten",
+      "produkte": [
+        {
+          "produktName": "BÜFA®-Firestop Liquid Mat",
+          "artikelNr": "715-0245",
+          "verfuegbarkeit": "lagernd",
+          "isNew": false,
+          "beschreibung": "Flüssige Brandschutzmatte zum Ausgleichen von scharfen Kanten und Ecken, auch als Brandschutzkleber mit guten brandhemmenden Eigenschaften einsetzbar.",
+          "technischeDaten": {
+            "harzbasis": "OP",
+            "nichtflüchtigeAnteileProzent": 87,
+            "viskositaet": {
+              "wert": 300000,
+              "einheit": "mPas",
+              "messverfahren": null
+            },
+            "bruchdehnungProzent": 2.5,
+            "zugscherfestigkeit_N_mm2": 6.5,
+            "hdt_C": 70
+          }
+        }
+      ]
+    },
+    {
+      "kategorieName": "Kernmaterialien",
+      "produkte": [
+        {
+          "produktName": "3DCORE® PET FR",
+          "artikelNr": null,
+          "verfuegbarkeit": "auf Anfrage",
+          "isNew": false,
+          "beschreibung": "Geschlossenzelliger, thermoplastischer und recycelbarer Hartschaum mit hervorragenden FST-Eigenschaften (Flame, Smoke, Toxicity). Verfügt über eine integrierte Wabenstruktur.",
+          "eigenschaften": {
+            "brandschutz": "Sehr gute brandhemmende Eigenschaften (EN 45545-2, NF F16-101, FAR 25.853, EN 13823, IMO Res. A 653 (16) FTP Code MSC 61 (67) Annes 1-5)",
+            "gewicht": "Erhebliche Gewichtseinsparung im Vergleich zu anderen Sandwich-Materialien",
+            "harzverteilung": "Integriertes Harzverteilungssystem für maximale Prozesskontrolle ohne zusätzliches Fließmedium",
+            "drapierfaehigkeit": "Hohe Drapierfähigkeit für konvexe und konkave Bauteilgeometrien",
+            "temperaturbestaendigkeit": "Dauerwärmebeständigkeit bis 100°C und Arbeitstemperatur bis 180°C",
+            "mechanischeEigenschaften": "Maximiert die Druck-, Biege- und Schereigenschaften",
+            "verfahren": "Vakuuminfusion, RTM, Handlaminat, Nasspressen, etc.",
+            "dichte_kg_m3": 95
+          },
+          "varianten": [
+            {
+              "name": "3DCORE® SHEETS",
+              "dicke_mm": {
+                "min": 3,
+                "max": 29
+              }
+            },
+            {
+              "name": "3DCORE® ROLLS",
+              "dicke_mm": {
+                "min": 2,
+                "max": 10
+              },
+              "breite_mm": 1015,
+              "laenge_m": 40.5
+            },
+            {
+              "name": "ASSEMBLY KITS",
+              "beschreibung": "Optimierte Schaumstoff- und Textilbausätze (inkl. Engineering)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kategorieName": "Additive und Hilfsstoffe",
+      "produkte": [
+        {
+          "produktName": "BÜFA®-Accelerator Complex 9004",
+          "artikelNr": "715-9004",
+          "verfuegbarkeit": "lagernd",
+          "typ": "Beschleuniger",
+          "beschreibung": "Beschleunigerkomplex zur Härtung hochgefüllter Brandhemmsysteme auf Basis von polymerem Kobalt."
+        },
+        {
+          "produktName": "BÜFA®-Additive Viscoreducer",
+          "artikelNr": "742-0018",
+          "verfuegbarkeit": "lagernd",
+          "typ": "Additiv",
+          "beschreibung": "Viskositätsreduzierer für gefüllte HLU- und Injektionssysteme."
+        },
+        {
+          "produktName": "BÜFA®-Accelerator Foaming Agent",
+          "artikelNr": "742-2000",
+          "verfuegbarkeit": "lagernd",
+          "typ": "Treibmittel",
+          "beschreibung": "Treibmittel für Brandschutzschaumharz."
+        },
+        {
+          "produktName": "BÜFA®-Additive Repair Solution",
+          "artikelNr": "742-0030",
+          "verfuegbarkeit": "lagernd",
+          "typ": "Reparaturadditiv",
+          "beschreibung": "Additivmischung zur Reparatur von Gelcoat-Oberflächen durch Spritzen."
+        },
+        {
+          "produktName": "BÜFA®-Accelerator Complex 0399",
+          "artikelNr": "742-1399",
+          "verfuegbarkeit": "lagernd",
+          "typ": "Beschleuniger",
+          "beschreibung": "Beschleunigerkomplex für Gelcoat S 270 und S 320."
+        }
+      ]
+    }
+  ],
+  "systemLoesungen": {
+    "beschreibung": "Das BÜFA®-FireFox-System kombiniert flammhemmende Gelcoats und hochstabile, glasfaserverstärkte Laminatstrukturen aus einem Brandschutz-Injektionsharz. Maximale Festigkeit und Steifigkeit werden mit extrem geringem Gewicht kombiniert.",
+    "kombinationen": [
+      {
+        "system": "BÜFA®-Firestop GC S 270 + BÜFA®-Firestop S 425",
+        "gelcoatWirkungsweise": "Intumeszierend",
+        "norm": "EN 45545-2",
+        "klassifizierung": "HL 2 (R1)",
+        "verfahren": "VI (Vakuum-Infusion)",
+        "lackierung": false,
+        "fasergehaltGewichtsprozent": {
+          "min": 65,
+          "max": 70
+        },
+        "laminatdicke_mm": 3.0
+      },
+      {
+        "system": "BÜFA®-Firestop GC S 285 + BÜFA®-Firestop S 425",
+        "gelcoatWirkungsweise": "Intumeszierend",
+        "norm": "EN 45545-2",
+        "klassifizierung": "HL 3 (R1), HL 2 (R7, R17)",
+        "verfahren": "VI (Vakuum-Infusion)",
+        "lackierung": false,
+        "fasergehaltGewichtsprozent": {
+          "min": 65,
+          "max": 70
+        },
+        "laminatdicke_mm": 3.4
+      },
+      {
+        "system": "BÜFA®-Firestop GC S 285 + BÜFA®-Firestop S 440",
+        "gelcoatWirkungsweise": "Intumeszierend",
+        "norm": "EN 45545-2",
+        "klassifizierung": "HL 2 (R1, R7, R17)",
+        "verfahren": "VI (Vakuum-Infusion)",
+        "lackierung": true,
+        "fasergehaltGewichtsprozent": {
+          "min": 65,
+          "max": 70
+        },
+        "laminatdicke_mm": 4.0
+      },
+      {
+        "system": "BÜFA®-Firestop GC S 285 + BÜFA®-Firestop S 910 Foaming Resin",
+        "gelcoatWirkungsweise": "Intumeszierend",
+        "norm": "EN 45545-2",
+        "klassifizierung": "HL 2 (R1, R7, R17)",
+        "verfahren": "RTM (Resin Transfer Moulding)",
+        "lackierung": false,
+        "fasergehaltGewichtsprozent": {
+          "min": 40,
+          "max": 40
+        },
+        "laminatdicke_mm": 6.0
+      },
+      {
+        "system": "BÜFA®-Firestop GC S 320 + BÜFA®-Firestop S 400",
+        "gelcoatWirkungsweise": "Intumeszierend",
+        "isNew": true,
+        "norm": "EN 45545-2",
+        "klassifizierung": "HL 3 (R1, R7, R17)",
+        "verfahren": "VI (Vakuum-Infusion)",
+        "lackierung": false,
+        "fasergehaltGewichtsprozent": {
+          "min": 65,
+          "max": 70
+        },
+        "laminatdicke_mm": 4.5
+      },
+      {
+        "system": "BÜFA®-Firestop GC S 320 + BÜFA®-Firestop S 425",
+        "gelcoatWirkungsweise": "Intumeszierend",
+        "isNew": true,
+        "norm": "EN 45545-2",
+        "klassifizierung": "HL 3 (R1, R7, R17)",
+        "verfahren": "VI (Vakuum-Infusion)",
+        "lackierung": true,
+        "fasergehaltGewichtsprozent": {
+          "min": 65,
+          "max": 70
+        },
+        "laminatdicke_mm": 4.5
+      }
+    ]
+  },
+  "glossar": [
+    {
+      "begriff": "ATH",
+      "vollstaendigerName": "Aluminiumhydroxid",
+      "definition": "Eine Verbindung, die bei Temperaturen über 200°C in Wasser zerfällt, den Brandherd durch Verdampfung kühlt und gleichzeitig den Sauerstoffzutritt zur Flamme verhindert."
+    },
+    {
+      "begriff": "Intumeszenz",
+      "definition": "Bildung einer aufgeschäumten, sauerstoffundurchlässigen Schicht durch Hitzeeinwirkung auf einen Kunststoff. Der Schutzschaum verhindert das Eindringen von Sauerstoff und schirmt das darunter liegende Laminat für eine gewisse Zeit von der Hitze ab."
+    },
+    {
+      "begriff": "Karbonisierung",
+      "definition": "Gezieltes „Verkohlen\" einer Oberfläche durch eine entsprechend wirksame Brandschutzausrüstung. Die dünne Kohlenstoffschicht verhindert den Kontakt der darunter liegenden Laminatbestandteile mit Sauerstoff."
+    },
+    {
+      "begriff": "EN 45545-2",
+      "definition": "Die Norm, die die Anforderungen an das Brandverhalten von Werkstoffen und Komponenten im Schienenverkehr regelt. Sie gilt als extrem streng."
+    },
+    {
+      "begriff": "HL",
+      "vollstaendigerName": "Hazard Level",
+      "definition": "Ein Klassifizierungssystem, das hilft, die Anwendungsbereiche von Kunststoffbauteilen nach der von ihnen im Brandfall geforderten Mindestleistung zu ordnen. Die strengste Stufe ist HL3."
+    },
+    {
+      "begriff": "LOI",
+      "vollstaendigerName": "Limiting Oxygen Index",
+      "definition": "Ein wichtiger Indikator zur Beschreibung des Brandverhaltens von Kunststoffen. Die Zahl gibt an, wie viel Sauerstoff der Werkstoff benötigt, um sich zu entzünden. Ab einem LOI von 21 gilt ein Werkstoff an der Luft als schwer entflammbar."
+    }
+  ],
+  "abkuerzungen": {
+    "DCPD": "Dicyclopentadien",
+    "OP": "Orthophthalsäure",
+    "IP": "Isophthalsäure",
+    "VE": "Vinylester",
+    "rPET": "recyceltes PET",
+    "ATH": "Aluminiumhydroxid",
+    "HLU": "Handlaminierverfahren",
+    "RTM": "Resin Transfer Moulding",
+    "VI": "Vakuum-Infusion",
+    "HDT": "Heat Deflection Temperature",
+    "mPas": "Millipascal-Sekunde",
+    "MPa": "Megapascal",
+    "FST": "Flame, Smoke, Toxicity",
+    "MEKP": "Methylethylketonperoxid",
+    "NPG": "Neopentylglykol",
+    "THP": "Tetrahydrophthalsäure",
+    "VE-LP": "Vinylester Low Profile"
+  },
+  "kontaktInformationen": {
+    "hauptsitz": {
+      "firma": "BÜFA Composite Systems GmbH & Co. KG",
+      "adresse": {
+        "strasse": "Hohe Looge 2-8",
+        "plz": "26180",
+        "ort": "Rastede",
+        "land": "Deutschland"
+      },
+      "telefon": "+49 4402 975-0",
+      "email": "compositesystems@buefa.de",
+      "website": "www.buefa-composites.com"
+    },
+    "ansprechpartner": {
+      "brandschutzExperte": {
+        "name": "Joe Mardoukh",
+        "position": "Market Segment Manager Fire Retardant Products",
+        "telefon": "+49 4402 975-395",
+        "email": "joe.mardoukh@buefa.de"
+      }
+    }
+  },
+  "metadaten": {
+    "letzteAktualisierung": "2024-08",
+    "hinweis": "Die angegebenen Daten sind Richtwerte und ohne Gewähr. Die aktuellsten, detaillierten Informationen und Daten sind dem gültigen technischen Datenblatt und/oder dem entsprechenden EU-Sicherheitsdatenblatt zu entnehmen, welche ebenfalls zu beachten sind.",
+    "copyright": "© BÜFA Composite Systems GmbH & Co. KG"
+  }
+}
