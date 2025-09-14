@@ -17,6 +17,9 @@ interface ProductPageProps {
   }
 }
 
+export const dynamic = "error"
+export const fetchCache = "force-cache"
+
 export async function generateMetadata({ params }: ProductPageProps): Promise<Metadata> {
   const { produkte } = loadData()
   const productSlug = params.slug.join("/")
