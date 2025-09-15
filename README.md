@@ -48,3 +48,19 @@ This project is fully configured for static export and deployment on IONOS Deplo
 4. IONOS Deploy Now deploys the static site
 
 The project contains no server-side functionality, API routes, or server actions - it's a pure static website optimized for fast loading and reliable hosting.
+
+## Merge Management
+
+### Undoing the JSON Navigation Merge
+
+If you need to undo the JSON navigation merge (PR #12, commit `a2a21ea`), comprehensive documentation and tools are available:
+
+- **📖 Detailed Guide**: See [`MERGE_UNDO_GUIDE.md`](./MERGE_UNDO_GUIDE.md) for step-by-step instructions
+- **🔧 Automated Script**: Use `./scripts/undo-merge.sh` for safe merge reverting
+- **🧪 Test First**: Run `./scripts/undo-merge.sh --dry-run` to see what would happen
+
+The guide covers:
+- Safe revert options (git revert vs git reset)
+- Impact analysis of undoing the merge
+- Step-by-step instructions in German
+- Backup and recovery procedures
