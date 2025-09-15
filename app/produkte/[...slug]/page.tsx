@@ -4,6 +4,7 @@ import { loadData } from "@/lib/data-loader"
 import { Breadcrumbs } from "@/components/product/breadcrumbs"
 import { TechnicalDataTable } from "@/components/product/technical-data-table"
 import { RelatedProducts } from "@/components/product/related-products"
+import { FaqSection } from "@/components/product/faq-section"
 import { ContactSection } from "@/components/product/contact-section"
 import { BadgeCustom } from "@/components/ui/badge-custom"
 import { Button } from "@/components/ui/button"
@@ -194,6 +195,9 @@ export default function ProductPage({ params }: ProductPageProps) {
                 </div>
               </CardContent>
             </Card>
+
+            {/* FAQ Section */}
+            <FaqSection faq={product.faq} />
 
             {/* Related Products */}
             <RelatedProducts products={relatedProducts} currentProductSlug={product.slug} />
