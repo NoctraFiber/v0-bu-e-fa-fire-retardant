@@ -16,7 +16,7 @@ export interface ProductWithOffer extends Produkt {
 const mapAvailabilityToSchema = (availabilityStatus: string): string => {
   const mapping: { [key: string]: string } = {
     "Auf Anfrage": "https://schema.org/Inquire",
-    Lagerware: "https://schema.org/InStock",
+    lagernd: "https://schema.org/InStock",
     Bestellartikel: "https://schema.org/PreOrder",
   }
   // Default to Inquire if the status is not recognized.
