@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Kontakt - BÜFA Composite Systems | BÜFA Fire Retardant Products",
   description:
     "Kontaktieren Sie unsere Brandschutz-Experten für individuelle Beratung zu brandhemmenden Gelcoats, Harzen und Systemlösungen. Direkter Draht zu Joe Mardoukh und dem BÜFA-Team.",
+  alternates: {
+    canonical: "/kontakt",
+  },
   openGraph: {
     title: "Kontakt - BÜFA Brandschutz-Experten",
     description: "Professionelle Beratung zu Brandschutz-Lösungen. Kontaktieren Sie unsere Experten direkt.",

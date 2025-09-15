@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Abkürzungen - Fachbegriffe Brandschutz | BÜFA Fire Retardant Products",
   description:
     "Übersicht aller wichtigen Abkürzungen aus dem Bereich Brandschutz und Composite-Materialien. Von DCPD über RTM bis VI - alle Begriffe verständlich erklärt.",
+  alternates: {
+    canonical: "/abkuerzungen",
+  },
   openGraph: {
     title: "Brandschutz-Abkürzungen",
     description: "Vollständige Liste aller Abkürzungen und Fachbegriffe aus dem Brandschutz-Bereich.",

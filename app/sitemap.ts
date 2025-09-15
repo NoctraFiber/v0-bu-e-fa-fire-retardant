@@ -3,7 +3,7 @@ import type { MetadataRoute } from "next"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const { produkte } = loadData()
-  const baseUrl = "https://buefa-fire-retardant.vercel.app" // Replace with your actual domain
+  const baseUrl = "https://brandschutz.buefa-composites.com"
 
   // Static pages
   const staticPages = [
