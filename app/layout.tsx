@@ -39,14 +39,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://buefa-fire-retardant.vercel.app"), // Replace with your actual domain
+  metadataBase: new URL("https://brandschutz.buefa-composites.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "de_DE",
-    url: "https://buefa-fire-retardant.vercel.app",
+    url: "https://brandschutz.buefa-composites.com",
     siteName: "BÜFA Fire Retardant Products",
     title: "BÜFA Fire Retardant Products - Brandschutz-Lösungen",
     description: "Hochwertige brandhemmende Gelcoats, Harze und Systemlösungen für den professionellen Brandschutz.",

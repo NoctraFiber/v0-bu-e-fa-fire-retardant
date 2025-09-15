@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next"
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = "https://buefa-fire-retardant.vercel.app" // Replace with your actual domain
+  const baseUrl = "https://brandschutz.buefa-composites.com"
 
   return {
     rules: {

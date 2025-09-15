@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Systemlösungen - BÜFA FireFox System | BÜFA Fire Retardant Products",
   description:
     "Das BÜFA FireFox-System kombiniert flammhemmende Gelcoats und hochstabile Laminatstrukturen für maximale Festigkeit bei geringem Gewicht.",
+  alternates: {
+    canonical: "/systemloesungen",
+  },
   openGraph: {
     title: "BÜFA FireFox Systemlösungen",
     description:
