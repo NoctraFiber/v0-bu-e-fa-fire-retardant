@@ -1,0 +1,418 @@
+{
+  "navigation_config": {
+    "main_navigation": [
+      {
+        "label": "Startseite",
+        "href": "/",
+        "active_path": "/",
+        "icon": "home"
+      },
+      {
+        "label": "Produkte & Systeme",
+        "href": "/produkte-systeme",
+        "active_path": "/produkte-systeme",
+        "icon": "package",
+        "submenu": [
+          {
+            "label": "BÜFA-Produkte",
+            "href": "/produkte-systeme/buefa-produkte",
+            "submenu": [
+              {
+                "label": "Gelcoats & Topcoats",
+                "href": "/produkte-systeme/buefa-produkte/gelcoats-topcoats"
+              },
+              {
+                "label": "Harze",
+                "href": "/produkte-systeme/buefa-produkte/harze",
+                "submenu": [
+                  {
+                    "label": "Halogenfreie Harze",
+                    "href": "/produkte-systeme/buefa-produkte/harze/halogenfrei"
+                  },
+                  {
+                    "label": "rPET Harze",
+                    "href": "/produkte-systeme/buefa-produkte/harze/rpet"
+                  },
+                  {
+                    "label": "Halogenierte Harze",
+                    "href": "/produkte-systeme/buefa-produkte/harze/halogeniert"
+                  }
+                ]
+              },
+              {
+                "label": "Klebepasten",
+                "href": "/produkte-systeme/buefa-produkte/klebepasten"
+              },
+              {
+                "label": "Kernmaterialien",
+                "href": "/produkte-systeme/buefa-produkte/kernmaterialien"
+              },
+              {
+                "label": "Additive & Hilfsstoffe",
+                "href": "/produkte-systeme/buefa-produkte/additive"
+              },
+              {
+                "label": "Nachhaltige Produkte",
+                "href": "/produkte-systeme/buefa-produkte/nachhaltige-produkte",
+                "badge": "BÜFA®-future"
+              }
+            ]
+          },
+          {
+            "label": "BÜFA-Systeme",
+            "href": "/produkte-systeme/buefa-systeme",
+            "submenu": [
+              {
+                "label": "Brandschutzsysteme",
+                "href": "/produkte-systeme/buefa-systeme/brandschutzsysteme",
+                "badge": "BÜFA®-Firestop"
+              },
+              {
+                "label": "BÜFA®-FireFox System",
+                "href": "/produkte-systeme/buefa-systeme/firefox-system"
+              }
+            ]
+          },
+          {
+            "label": "BÜFA-Tec",
+            "href": "/produkte-systeme/buefa-tec",
+            "submenu": [
+              {
+                "label": "Anlagentechnik",
+                "href": "/produkte-systeme/buefa-tec/anlagentechnik"
+              },
+              {
+                "label": "Spritzpistolen",
+                "href": "/produkte-systeme/buefa-tec/spritzpistolen"
+              },
+              {
+                "label": "Dosieranlagen",
+                "href": "/produkte-systeme/buefa-tec/dosieranlagen"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Branchen",
+        "href": "/branchen",
+        "active_path": "/branchen",
+        "icon": "industry",
+        "submenu": [
+          {
+            "label": "Automotive",
+            "href": "/branchen/automotive"
+          },
+          {
+            "label": "Schienenverkehr",
+            "href": "/branchen/schienenverkehr"
+          },
+          {
+            "label": "Windenergie",
+            "href": "/branchen/windenergie"
+          },
+          {
+            "label": "Bauwesen",
+            "href": "/branchen/bauwesen"
+          },
+          {
+            "label": "Bootsbau",
+            "href": "/branchen/bootsbau"
+          },
+          {
+            "label": "Sanitär & Schwimmbäder",
+            "href": "/branchen/sanitaer-schwimmbaeder"
+          },
+          {
+            "label": "Tanks & Rohre",
+            "href": "/branchen/tanks-rohre"
+          }
+        ]
+      },
+      {
+        "label": "Know-how",
+        "href": "/know-how",
+        "active_path": "/know-how",
+        "icon": "book",
+        "submenu": [
+          {
+            "label": "Verarbeitung",
+            "href": "/know-how/verarbeitung",
+            "submenu": [
+              {
+                "label": "Verarbeitungshinweise",
+                "href": "/know-how/verarbeitung/verarbeitungshinweise"
+              },
+              {
+                "label": "Reparaturen",
+                "href": "/know-how/verarbeitung/reparaturen"
+              }
+            ]
+          },
+          {
+            "label": "Glossar",
+            "href": "/know-how/glossar"
+          },
+          {
+            "label": "FAQ",
+            "href": "/know-how/faq"
+          },
+          {
+            "label": "Downloads",
+            "href": "/know-how/downloads"
+          }
+        ]
+      },
+      {
+        "label": "Service",
+        "href": "/service",
+        "active_path": "/service",
+        "icon": "support",
+        "submenu": [
+          {
+            "label": "Technischer Support",
+            "href": "/service/technischer-support"
+          },
+          {
+            "label": "Beratung",
+            "href": "/service/beratung"
+          },
+          {
+            "label": "Schulungen",
+            "href": "/service/schulungen"
+          },
+          {
+            "label": "Qualitätssicherung",
+            "href": "/service/qualitaetssicherung"
+          }
+        ]
+      },
+      {
+        "label": "Über uns",
+        "href": "/ueber-uns",
+        "active_path": "/ueber-uns",
+        "icon": "info",
+        "submenu": [
+          {
+            "label": "Unser Profil",
+            "href": "/ueber-uns/unser-profil",
+            "submenu": [
+              {
+                "label": "BÜFA-Gruppe",
+                "href": "/ueber-uns/unser-profil/buefa-gruppe"
+              },
+              {
+                "label": "Geschichte",
+                "href": "/ueber-uns/unser-profil/geschichte"
+              },
+              {
+                "label": "Standorte",
+                "href": "/ueber-uns/unser-profil/standorte"
+              }
+            ]
+          },
+          {
+            "label": "Nachhaltigkeit",
+            "href": "/ueber-uns/nachhaltigkeit"
+          },
+          {
+            "label": "Qualität & Zertifikate",
+            "href": "/ueber-uns/qualitaet-zertifikate"
+          },
+          {
+            "label": "Karriere",
+            "href": "/ueber-uns/karriere"
+          },
+          {
+            "label": "News & Events",
+            "href": "/ueber-uns/news-events"
+          }
+        ]
+      },
+      {
+        "label": "Kontakt",
+        "href": "/kontakt",
+        "active_path": "/kontakt",
+        "icon": "contact"
+      }
+    ],
+
+    "mobile_navigation": {
+      "hamburger_style": "three_lines",
+      "overlay_background": "#2B4F7D",
+      "text_color": "#FFFFFF",
+      "close_icon": "×",
+      "animation": "slide_in_right"
+    },
+
+    "navigation_styling": {
+      "desktop": {
+        "header_height": "80px",
+        "background": "#FFFFFF",
+        "border_bottom": "1px solid #E0E0E0",
+        "logo_height": "40px",
+        "menu_item_color": "#4A4A4A",
+        "menu_item_hover": "#2B4F7D",
+        "active_item_color": "#FF6B35",
+        "dropdown_background": "#FFFFFF",
+        "dropdown_shadow": "0 4px 12px rgba(0,0,0,0.15)",
+        "dropdown_border_radius": "8px"
+      },
+      "mobile": {
+        "background": "#2B4F7D",
+        "text_color": "#FFFFFF",
+        "active_color": "#FF6B35",
+        "border_color": "rgba(255,255,255,0.1)"
+      }
+    },
+
+    "navigation_behavior": {
+      "sticky_header": true,
+      "dropdown_animation": "fade_slide_down",
+      "dropdown_delay": 150,
+      "active_state_indicator": "bottom_border",
+      "hover_effect": "color_change",
+      "mobile_breakpoint": "768px",
+      "submenu_max_depth": 3
+    },
+
+    "breadcrumb_config": {
+      "enabled": true,
+      "separator": "›",
+      "home_label": "Startseite",
+      "styling": {
+        "font_size": "0.875rem",
+        "color": "#8C8C8C",
+        "active_color": "#2B4F7D",
+        "background": "#F5F5F5",
+        "padding": "0.5rem 1rem",
+        "border_radius": "4px"
+      }
+    },
+
+    "footer_navigation": {
+      "columns": [
+        {
+          "title": "Produkte",
+          "links": [
+            {
+              "label": "Gelcoats & Topcoats",
+              "href": "/produkte-systeme/buefa-produkte/gelcoats-topcoats"
+            },
+            {
+              "label": "Harze",
+              "href": "/produkte-systeme/buefa-produkte/harze"
+            },
+            {
+              "label": "Brandschutzsysteme",
+              "href": "/produkte-systeme/buefa-systeme/brandschutzsysteme"
+            },
+            {
+              "label": "Nachhaltige Produkte",
+              "href": "/produkte-systeme/buefa-produkte/nachhaltige-produkte"
+            }
+          ]
+        },
+        {
+          "title": "Branchen",
+          "links": [
+            {
+              "label": "Schienenverkehr",
+              "href": "/branchen/schienenverkehr"
+            },
+            {
+              "label": "Automotive",
+              "href": "/branchen/automotive"
+            },
+            {
+              "label": "Windenergie",
+              "href": "/branchen/windenergie"
+            },
+            {
+              "label": "Bauwesen",
+              "href": "/branchen/bauwesen"
+            }
+          ]
+        },
+        {
+          "title": "Service",
+          "links": [
+            {
+              "label": "Technischer Support",
+              "href": "/service/technischer-support"
+            },
+            {
+              "label": "Downloads",
+              "href": "/know-how/downloads"
+            },
+            {
+              "label": "Glossar",
+              "href": "/know-how/glossar"
+            },
+            {
+              "label": "FAQ",
+              "href": "/know-how/faq"
+            }
+          ]
+        },
+        {
+          "title": "Unternehmen",
+          "links": [
+            {
+              "label": "Über BÜFA",
+              "href": "/ueber-uns/unser-profil"
+            },
+            {
+              "label": "Standorte",
+              "href": "/ueber-uns/unser-profil/standorte"
+            },
+            {
+              "label": "Karriere",
+              "href": "/ueber-uns/karriere"
+            },
+            {
+              "label": "News",
+              "href": "/ueber-uns/news-events"
+            }
+          ]
+        }
+      ],
+      "legal_links": [
+        {
+          "label": "Impressum",
+          "href": "https://www.buefa-composites.com/de/impressum",
+          "external": true
+        },
+        {
+          "label": "Datenschutz",
+          "href": "https://www.buefa-composites.com/de/datenschutz",
+          "external": true
+        },
+        {
+          "label": "AGB",
+          "href": "https://www.buefa-composites.com/de/agb",
+          "external": true
+        },
+        {
+          "label": "Cookie-Einstellungen",
+          "href": "#",
+          "action": "open_cookie_settings"
+        }
+      ]
+    },
+
+    "search_config": {
+      "enabled": true,
+      "placeholder": "Produkte, Branchen oder Know-how durchsuchen...",
+      "endpoint": "/api/search",
+      "min_chars": 3,
+      "categories": [
+        "Alle",
+        "Produkte",
+        "Branchen",
+        "Know-how",
+        "News"
+      ]
+    }
+  }
+}
