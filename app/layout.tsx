@@ -7,6 +7,7 @@ import "./globals.css"
 import { Header } from "@/components/layout/header"
 import { Footer } from "@/components/layout/footer"
 import { Suspense } from "react"
+import JsonLd from "@/components/JsonLd"
 
 export const metadata: Metadata = {
   title: {
@@ -88,38 +89,32 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  const webSiteLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "BÜFA Fire Retardant",
+    "url": "https://brandschutz.buefa-composites.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://brandschutz.buefa-composites.com/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+
+  const organizationLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "BÜFA Composite Systems",
+    "url": "https://www.buefa-composites.com/",
+    "logo": "https://brandschutz.buefa-composites.com/assets/logo.png"
+  }
+
   return (
     <html lang="de">
-      <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              name: "BÜFA Composite Systems GmbH & Co. KG",
-              url: "https://buefa-fire-retardant.vercel.app",
-              logo: "https://buefa-fire-retardant.vercel.app/logo.png",
-              contactPoint: {
-                "@type": "ContactPoint",
-                telephone: "+49 4402 975-395",
-                contactType: "customer service",
-                areaServed: "DE",
-                availableLanguage: "German",
-              },
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "Hohe Looge 2-8",
-                addressLocality: "Rastede",
-                postalCode: "26180",
-                addressCountry: "DE",
-              },
-              sameAs: ["https://www.buefa-composites.com"],
-            }),
-          }}
-        />
-      </head>
+      <head></head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
+        <JsonLd data={webSiteLd} />
+        <JsonLd data={organizationLd} />
         <Suspense fallback={<div>Loading...</div>}>
           <Header />
           <main className="min-h-screen">{children}</main>
