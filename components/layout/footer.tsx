@@ -38,10 +38,22 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t mt-8 pt-8 text-center text-sm text-gray-500">
-          <p>{metadaten.copyright}</p>
-          <p className="mt-2">{metadaten.hinweis}</p>
-          <p className="mt-2">Letzte Aktualisierung: {metadaten.letzteAktualisierung}</p>
+        <div className="border-t mt-8 pt-8 text-sm text-gray-500">
+          <div className="flex justify-between items-center">
+            <p>{metadaten.copyright}</p>
+            <nav className="flex gap-4">
+              <a href="https://www.buefa-composites.com/de/impressum" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                Impressum
+              </a>
+              <a href="https://www.buefa-composites.com/de/datenschutz" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                Datenschutz
+              </a>
+            </nav>
+          </div>
+          <div className="text-center">
+            <p className="mt-2">{metadaten.hinweis}</p>
+            <p className="mt-2">Letzte Aktualisierung: {metadaten.letzteAktualisierung}</p>
+          </div>
         </div>
       </div>
     </footer>
