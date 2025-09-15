@@ -10,6 +10,8 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { ArrowLeft } from "lucide-react"
 import type { Metadata } from "next"
+import { buildProductJsonLd } from "@/lib/seo"
+import JsonLd from "@/components/JsonLd"
 
 interface ProductPageProps {
   params: {
@@ -34,10 +36,14 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
   return {
     title: `${product.produktName} - BÜFA Fire Retardant Products`,
     description: product.beschreibung,
+    alternates: {
+      canonical: `https://brandschutz.buefa-composites.com/produkte/${product.slug}`,
+    },
     openGraph: {
       title: product.produktName,
       description: product.beschreibung,
       type: "website",
+      url: `https://brandschutz.buefa-composites.com/produkte/${product.slug}`,
     },
   }
 }
@@ -85,27 +91,10 @@ export default function ProductPage({ params }: ProductPageProps) {
     }
   }
 
-  // Generate structured data for SEO
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: product.produktName,
-    description: product.beschreibung,
-    manufacturer: {
-      "@type": "Organization",
-      name: "BÜFA Composite Systems GmbH & Co. KG",
-    },
-    offers: {
-      "@type": "Offer",
-      availability: product.verfuegbarkeit === "lagernd" ? "https://schema.org/InStock" : "https://schema.org/PreOrder",
-    },
-    ...(product.artikelNr && { sku: product.artikelNr }),
-  }
+  const jsonLdData = buildProductJsonLd(product)
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
-
       <div className="container mx-auto px-4 py-8">
         <Breadcrumbs items={breadcrumbItems} />
 
@@ -123,6 +112,7 @@ export default function ProductPage({ params }: ProductPageProps) {
             {/* Product Header */}
             <div>
               <div className="flex items-start justify-between gap-4 mb-4">
+                <JsonLd data={jsonLdData} />
                 <h1 className="text-3xl font-bold text-[#03479c] text-balance">{product.produktName}</h1>
                 <div className="flex flex-col gap-2 shrink-0">
                   {product.isNew && <BadgeCustom variant="new">Neu</BadgeCustom>}

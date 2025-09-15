@@ -39,8 +39,8 @@ export const buildProductJsonLd = (p: ProductWithOffer) => {
     sku: p.artikelNr || undefined,
     url: `https://brandschutz.buefa-composites.com/produkte/${p.slug}`,
     brand: {
-      "@type": "Brand",
-      name: "BÜFA Composite Systems",
+      "@type": "Organization",
+      name: "BÜFA",
     },
   }
 
