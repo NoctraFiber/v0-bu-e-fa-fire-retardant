@@ -93,6 +93,22 @@ export default function ProductPage({ params }: ProductPageProps) {
 
   const jsonLdData = buildProductJsonLd(product)
 
+  const canonicalUrl = `https://brandschutz.buefa-composites.com/produkte/${product.slug}`
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://brandschutz.buefa-composites.com/" },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Produkte",
+        item: "https://brandschutz.buefa-composites.com/produkte/",
+      },
+      { "@type": "ListItem", position: 3, name: product.produktName, item: canonicalUrl },
+    ],
+  }
+
   return (
     <>
       <div className="container mx-auto px-4 py-8">
@@ -113,6 +129,7 @@ export default function ProductPage({ params }: ProductPageProps) {
             <div>
               <div className="flex items-start justify-between gap-4 mb-4">
                 <JsonLd data={jsonLdData} />
+                <JsonLd data={breadcrumbJsonLd} />
                 <h1 className="text-3xl font-bold text-[#03479c] text-balance">{product.produktName}</h1>
                 <div className="flex flex-col gap-2 shrink-0">
                   {product.isNew && <BadgeCustom variant="new">Neu</BadgeCustom>}
