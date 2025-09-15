@@ -6,6 +6,7 @@ import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 import { Header } from "@/components/layout/header"
 import { Footer } from "@/components/layout/footer"
+import { ThemeProvider } from "@/components/theme-provider"
 import { Suspense } from "react"
 import JsonLd from "@/components/JsonLd"
 
@@ -110,17 +111,24 @@ export default function RootLayout({
   }
 
   return (
-    <html lang="de">
-      <head></head>
+    <html lang="de" suppressHydrationWarning>
+      <head />
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
-        <JsonLd data={webSiteLd} />
-        <JsonLd data={organizationLd} />
-        <Suspense fallback={<div>Loading...</div>}>
-          <Header />
-          <main className="min-h-screen">{children}</main>
-          <Footer />
-        </Suspense>
-        <Analytics />
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <JsonLd data={webSiteLd} />
+          <JsonLd data={organizationLd} />
+          <Suspense fallback={<div>Loading...</div>}>
+            <Header />
+            <main className="min-h-screen">{children}</main>
+            <Footer />
+          </Suspense>
+          <Analytics />
+        </ThemeProvider>
       </body>
     </html>
   )
